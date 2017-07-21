@@ -34,7 +34,7 @@ $('#carousel-example-generic').carousel({
 
 $(window).on('load', function(){ 
     
-    $(".sk-folding-cube").delay(1500).fadeOut(2000,function(){
+    $(".sk-folding-cube").fadeOut(2000,function(){
         
         $(this).parent().fadeOut(1000);
         $('body').css("overflow","auto");
